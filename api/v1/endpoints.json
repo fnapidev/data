@@ -1,12 +1,16 @@
 [
   "auth": [
     {
-      "name":"OAuth2 Token Url",
+      "name":"OAuth2 Token",
       "url":"https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token"
     },
     {
-      "name":"OAuth2 Exchange Token Url",
+      "name":"OAuth2 Token Exchange",
       "url":"https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token/exchange"
+    },
+    {
+      "name":"OAuth2 Token Info",
+      "url":"https://api.epicgames.dev/epic/oauth/v2/tokenInfo"
     }
   ]
 ]
